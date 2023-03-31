@@ -5,8 +5,8 @@ import { pinecone } from '@/utils/pinecone-client';
 import { CustomPDFLoader } from '@/utils/customPDFLoader';
 import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 
-/* Name of directory to retrieve files from. You can change this as required */
-const filePath = 'docs/MorseVsFrederick.pdf';
+/* ファイルを取得するディレクトリの名前です。必要に応じて変更することができます。 */
+const filePath = 'docs/12.pdf';
 
 export const run = async () => {
   try {
